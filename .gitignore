@@ -1,0 +1,47 @@
+# R временные файлы
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Python временные файлы
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.so
+*.pkl
+
+# Jupyter временные файлы
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# Результаты выполнения кода (графики и выходные данные)
+/meta_analysis_results/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+*.tiff
+*.csv
+*.RData
+*.rds
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Логи и временные файлы
+*.log
+*.aux
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+
+# Личные настройки
+.Renviron
+.Rprofile
