@@ -1,0 +1,19 @@
+Article_ID,Year ,Country,Region ,AI_Methods,Dataset_Type,Validation_Type,Test_Size,Staining_Type ,Sample_Size ,LBC_Technology ,WSI_Based ,Blinding ,Risk_Bias_Patient ,Risk_Bias_Index,Risk_Bias_Reference ,Risk_Bias_Flow 
+Alsubai_2023,2023,Saudi Arabia,Middle East,"CNN (Custom Architecture), Data Augmentation",Public ,"Split
+",609,Pap smear,4049,Yes,No ,Unclear,Low,Low,Low,Low
+Wang_2024,2024,China,East Asia,"RetinaNet (cell detection), Random Forest (WSI classification), EfficientNet (quality control), AI-assisted annotation",Proprietary,Prospective,2780,LBC ,16056,Yes,Yes,Yes ,Low,Low,Low,Low
+Zhao_2016,2016,China,East Asia,"SVM, Block Image Processing, Texture Features (LBP, GLCM), Color Histogram Features",Proprietary,Retrospective ,491,H&E,491,No ,No ,Unclear,Low,Low,Low,Low
+Tang_2021,2021,China,East Asia,RetinaNet (cell detection),Proprietary,Prospective,486,LBC ,2167,Yes,No,Yes ,Low,Low,Low,Low
+Kanavati_2022,2022,Japan,East Asia,EfficientNetB0 (CNN) + RNN (GRU),Proprietary,Retrospective ,643,LBC ,3121,Yes,Yes,Unclear,Low,Low,Unclear,Low
+Cheng_2021,2021,China,East Asia,"ResNet50, RNN, Progressive Recognition (LR + HR), Data Augmentation, Hard Sample Mining",Proprietary,Retrospective ,1170,LBC ,1170,Yes,Yes,Yes ,Low,Low,Low,Low
+Zhu_2021,2021,China,East Asia,"YOLOv3, Xception, U-Net, XGBoost, Logical Decision Trees, Patch Model, DPIQC (Quality Control)",Proprietary,Prospective,34403,LBC ,34403,Yes,Yes,Yes ,Low,Low,Low,Low
+Holmstrom_2021,2021,Kenya,Africa,"Deep Learning System (DLS) based on CNN, cloud-based image processing",Proprietary,Prospective,361,Pap smear,740,Yes,Yes,No,Low,Low,High,Low
+Deo_2023,2023,India,South Asia,"Transformer (CerviFormer), Cross-Attention, Latent Transformer, LAMB Optimizer",Public ,Hold-out ,92,Pap smear,917,Yes,No,Unclear,Low,Low,Low,Low
+Göker_2024,2024,Türkiye,Middle East,"Transfer Learning (VGG19, ResNet50, Xception, DenseNet201, MobileNetV2, AlexNet); Deep Convolutional Neural Networks (CNNs)
+",Public ,Crossval,917,Pap smear,917,Yes,No,Unclear,High,Low,High,High
+Bhatt_2021,2021,India,South Asia,"CNN (VGG-19, ResNet, EfficientNet), Transfer Learning, Progressive Resizing, GradCAM",Public ,Crossval,4049,Pap smear,4049,Yes,No,Unclear,Low,Low,Low,Low
+Jiang_2025,2025,China,East Asia,"Transformer (DINOv2, ViT-Large/Giant), Self-Supervised Learning (SSL), Test-Time Adaptation (TTA), Multi-Instance Learning (MIL), DDETR (Deformable DETR), Transfer Learning",Proprietary,Mixed,9145,LBC ,127471,Yes,Yes,Unclear,Low,Low,Low,Low
+Wong_2023,2023,Peru,South America,"ResNet50V2, ResNet101V2, Transfer Learning, Data Augmentation (Keras)",Public ,Retrospective ,240,Pap smear,963,Yes,No ,Unclear,Low,Low,Low,Low
+Fang_2024,2024,China,East Asia,A Hybrid CNN-Transformer with Deep Integrated Feature Fusion (DIFF) Blocks,Public ,Crossval,4049,Pap smear,4049,Yes,No ,Unclear,Low,Low,Low,Low
+Alzahrani_2024,2024,Saudi Arabia,Middle East,"Ensemble Learning, ViT Encoder, TL (VGG16, ResNet50, etc.)",Public ,Hold-out,609,Pap smear,4049,No,No,Unclear,High,Low,Unclear,Low
+Wang_2020,2020,China,East Asia,"Custom CNN (PsiNet), TL, Adaptive Pruning",Proprietary,Retrospective ,143,JPEG from microscope,389,No ,No ,Unclear,High,High,Low,High
