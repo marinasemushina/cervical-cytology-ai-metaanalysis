@@ -1,0 +1,19 @@
+Article_ID,N_Total,N_Positive,N_Negative,TP,FP,FN,TN,2x2_Source,Threshold_Setting,Reference_Standard,Blinding
+Alsubai_2023,609,365,244,338,21,33,217,Directly from aggregated confusion matrix data,Fixed,The gold standard provided by the creators of the SIPaKMeD dataset.,Unclear
+Wang_2024,2780,111,2669,105,294,6,2375,"Recalculated from Sensitivity, Specificity, and class distribution in Fig.3E",Optimized ,Expert cytopathologists,Yes
+Zhao_2016,491,40,451,38,3,2,448,Provided by the authors,Optimized ,Expert cytopathologists,Unclear
+Tang_2021,486,285,201,178,30,9,269,Recovered using formulas,Redefined algorithm thresholds (θ_T and N_max=12),Expert cytopathologists,Yes
+Kanavati_2022,643,279,364,234,29,45,335,"Recalculated from Sensitivity, Specificity, and class distribution in Fig.3",Optimized ,Expert cytopathologists,Unclear
+Cheng_2021,1170,511,659,486,43,25,616,"Calculated, Fig. 3a, Text (Sens=0.951, Spec=0.935)",Optimized ,Expert cytopathologists,Yes
+Zhu_2021,34403,2850,31553,3165,5533,275,25430,"
+Calculated, Fig. 6d, Text (Sens=92.00% for SIL, 83.00% for others; Spec=82.14%)",Optimized ,Expert cytopathologists,Yes
+Holmstrom_2021,361,47,314,45,48,2,266,Provided by the authors,"A threshold was selected for the algorithm (presumably to balance sensitivity/specificity), but the exact value was not specified.","1. Primary: Review of digitized slides by remote experts (cytotechnologist and pathologist).
+2. Secondary: Review of physical glass slides by an on-site pathologist.",No
+Deo_2023,92,68,24,66,2,3,21,Figure 6(b) (Confusion matrix of the Herlev dataset) in the article,"Not explicitly stated. Presumably, the standard for classification (argmax for class probabilities).",Expert annotations by the creators of the Herlev dataset,Unclear
+Göker_2024,917,675,242,666,7,9,235,Provided by the authors,Default,The gold standard provided by the creators of the Harlev dataset.,
+Bhatt_2021,4049,N/A,N/A,997,3,3,3046,"Calculated based on the confusion matrix (Fig. 9, 10)",Unclear,Expert cytopathologists,Unclear
+Jiang_2025,9145,N/A,N/A,1857,488,320,6480,"Figure 4b, Text (Sens=0.943, AUC=0.902). The exact matrix is not provided; the calculation is estimated.",Optimized ,Histological examination for validating cancer diagnosis. For cytological screening - consensus opinion of experienced cytopathologists using the Bethesda System.,Unclear
+Wong_2023,240,N/A,N/A,172,2,2,64,"Table 3 (Number of correct and incorrect predictions), Figure 7 (Confusion matrices)",The threshold is presumably the default (0.5) for a multiclass classifier with Softmax.,The gold standard provided by the creators of the Mendeley_LBC dataset.,Unclear
+Fang_2024,4049,1638,2411,2316,94,115,1524,Calculated based on the average Precision and Recall values for abnormal classes from Table 7,Default threshold (presumably 0.5 for multiclass classification). Not optimized for Sens/Spec.,The gold standard provided by the creators of the SIPaKMeD dataset.,Unclear
+Alzahrani_2024,609,N/A,N/A,371,3,0,235,Figure 3b in the article. The confusion matrix for the proposed model is directly provided,Default threshold (presumably 0.5 for multiclass classification). Not optimized for Sens/Spec.,The gold standard provided by the creators of the SIPaKMeD dataset.,Unclear
+Wang_2020,143,N/A,N/A,20,2,1,120,Calculated from metrics,Fixed (argmax),Expert cytologist,Unclear
